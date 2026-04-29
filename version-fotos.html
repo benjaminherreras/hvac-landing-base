@@ -3,9 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AirPro HVAC — El Confort que Mereces</title>
+  <title>AirPro HVAC — Aire Acondicionado y Clima en Mexicali</title>
+  <meta name="description" content="Servicio profesional de aire acondicionado, calefacción y ventilación en Mexicali BC. Personal certificado, atención de emergencias 24/7. Solicita tu diagnóstico gratis." />
+  <meta name="theme-color" content="#080d1a" />
+
+  <!-- Open Graph (WhatsApp / redes sociales) -->
+  <meta property="og:title" content="AirPro HVAC — Aire Acondicionado en Mexicali" />
+  <meta property="og:description" content="Personal certificado, servicio 24/7 y más de 1,000 clientes satisfechos en Mexicali BC." />
+  <meta property="og:image" content="https://images.pexels.com/photos/5463577/pexels-photo-5463577.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&dpr=1" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Preconnect / DNS prefetch -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.pexels.com" crossorigin />
+  <link rel="dns-prefetch" href="https://images.pexels.com" />
+
+  <!-- Preload hero image (above the fold) -->
+  <link rel="preload" as="image" href="https://images.pexels.com/photos/5463577/pexels-photo-5463577.jpeg?auto=compress&cs=tinysrgb&w=900&h=700&dpr=1" />
+
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -536,6 +553,8 @@
             src="https://images.pexels.com/photos/5463577/pexels-photo-5463577.jpeg?auto=compress&cs=tinysrgb&w=900&h=700&dpr=1"
             alt="Técnicos revisando unidad de aire acondicionado en azotea"
             loading="eager"
+            fetchpriority="high"
+            decoding="sync"
           />
           <!-- Mini thermostat overlay -->
           <div class="hero-mini-card">
@@ -597,7 +616,7 @@
 
       <div class="service-card">
         <div class="service-photo">
-          <img src="https://images.pexels.com/photos/5463581/pexels-photo-5463581.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Instalación de AC" loading="lazy" />
+          <img src="https://images.pexels.com/photos/5463581/pexels-photo-5463581.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Instalación de AC" loading="lazy" decoding="async" />
           <div class="service-photo-overlay"></div>
         </div>
         <div class="service-body">
@@ -609,7 +628,7 @@
 
       <div class="service-card">
         <div class="service-photo">
-          <img src="https://images.pexels.com/photos/5463587/pexels-photo-5463587.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Calefacción y Furnace" loading="lazy" />
+          <img src="https://images.pexels.com/photos/5463587/pexels-photo-5463587.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Calefacción y Furnace" loading="lazy" decoding="async" />
           <div class="service-photo-overlay"></div>
         </div>
         <div class="service-body">
@@ -621,7 +640,7 @@
 
       <div class="service-card">
         <div class="service-photo">
-          <img src="https://images.pexels.com/photos/5463576/pexels-photo-5463576.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Ventilación y Calidad del Aire" loading="lazy" />
+          <img src="https://images.pexels.com/photos/5463576/pexels-photo-5463576.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Ventilación y Calidad del Aire" loading="lazy" decoding="async" />
           <div class="service-photo-overlay"></div>
         </div>
         <div class="service-body">
@@ -633,7 +652,7 @@
 
       <div class="service-card">
         <div class="service-photo">
-          <img src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Mantenimiento Preventivo" loading="lazy" />
+          <img src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Mantenimiento Preventivo" loading="lazy" decoding="async" />
           <div class="service-photo-overlay"></div>
         </div>
         <div class="service-body">
@@ -645,7 +664,7 @@
 
       <div class="service-card">
         <div class="service-photo">
-          <img src="https://images.pexels.com/photos/6471911/pexels-photo-6471911.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Reparaciones de Emergencia" loading="lazy" />
+          <img src="https://images.pexels.com/photos/6471911/pexels-photo-6471911.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="Reparaciones de Emergencia" loading="lazy" decoding="async" />
           <div class="service-photo-overlay"></div>
         </div>
         <div class="service-body">
@@ -657,7 +676,7 @@
 
       <div class="service-card">
         <div class="service-photo">
-          <img src="https://images.pexels.com/photos/5463582/pexels-photo-5463582.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="HVAC Comercial" loading="lazy" />
+          <img src="https://images.pexels.com/photos/5463582/pexels-photo-5463582.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1" alt="HVAC Comercial" loading="lazy" decoding="async" />
           <div class="service-photo-overlay"></div>
         </div>
         <div class="service-body">
@@ -751,32 +770,32 @@
     </div>
     <div class="team-grid">
       <div class="team-photo wide">
-        <img src="https://images.pexels.com/photos/5463577/pexels-photo-5463577.jpeg?auto=compress&cs=tinysrgb&w=1000&h=600&dpr=1" alt="Técnicos en azotea" loading="lazy" />
+        <img src="https://images.pexels.com/photos/5463577/pexels-photo-5463577.jpeg?auto=compress&cs=tinysrgb&w=1000&h=600&dpr=1" alt="Técnicos en azotea" loading="lazy" decoding="async" />
         <div class="team-photo-overlay"></div>
         <div class="team-photo-label">Instalación en Azotea <span>Comercial</span></div>
       </div>
       <div class="team-photo">
-        <img src="https://images.pexels.com/photos/5463585/pexels-photo-5463585.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1" alt="Técnico diagnosticando equipo" loading="lazy" />
+        <img src="https://images.pexels.com/photos/5463585/pexels-photo-5463585.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1" alt="Técnico diagnosticando equipo" loading="lazy" decoding="async" />
         <div class="team-photo-overlay"></div>
         <div class="team-photo-label">Diagnóstico <span>Residencial</span></div>
       </div>
       <div class="team-photo">
-        <img src="https://images.pexels.com/photos/6471914/pexels-photo-6471914.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1" alt="Técnico en mantenimiento preventivo" loading="lazy" />
+        <img src="https://images.pexels.com/photos/6471914/pexels-photo-6471914.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1" alt="Técnico en mantenimiento preventivo" loading="lazy" decoding="async" />
         <div class="team-photo-overlay"></div>
         <div class="team-photo-label">Mantenimiento <span>Preventivo</span></div>
       </div>
       <div class="team-photo">
-        <img src="https://images.pexels.com/photos/32588555/pexels-photo-32588555.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1" alt="Técnico revisando sistema interior" loading="lazy" />
+        <img src="https://images.pexels.com/photos/32588555/pexels-photo-32588555.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1" alt="Técnico revisando sistema interior" loading="lazy" decoding="async" />
         <div class="team-photo-overlay"></div>
         <div class="team-photo-label">Inspección <span>Exterior</span></div>
       </div>
       <div class="team-photo">
-        <img src="https://images.pexels.com/photos/35290669/pexels-photo-35290669.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1" alt="Técnico instalando con taladro" loading="lazy" />
+        <img src="https://images.pexels.com/photos/35290669/pexels-photo-35290669.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1" alt="Técnico instalando con taladro" loading="lazy" decoding="async" />
         <div class="team-photo-overlay"></div>
         <div class="team-photo-label">Reparación <span>Experta</span></div>
       </div>
       <div class="team-photo wide">
-        <img src="https://images.pexels.com/photos/7347538/pexels-photo-7347538.jpeg?auto=compress&cs=tinysrgb&w=1000&h=500&dpr=1" alt="Técnico reparando unidad de AC en fachada" loading="lazy" />
+        <img src="https://images.pexels.com/photos/7347538/pexels-photo-7347538.jpeg?auto=compress&cs=tinysrgb&w=1000&h=500&dpr=1" alt="Técnico reparando unidad de AC en fachada" loading="lazy" decoding="async" />
         <div class="team-photo-overlay"></div>
         <div class="team-photo-label">Instalación <span>En Campo</span></div>
       </div>
